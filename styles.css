@@ -103,7 +103,7 @@ body {
 }
 
 .image-container img:hover {
-  transform: scale(1.5); /* Enlarge the image slightly on hover */
+  transform: scale(1.2); /* Enlarge the image slightly on hover */
 }
 
 
@@ -179,4 +179,19 @@ footer {
 .h2-center-bold {
   text-align: center; /* Center the text horizontally */
   font-weight: bold; /* Make the text bold */
+}
+
+.center-paragraph {
+  text-align: center; /* Center horizontally */
+  display: flex;
+  justify-content: center; /* Center vertically */
+  align-items: center;
+  height: 100vh; /* Adjust to control the vertical centering */
+  margin: 0; /* Remove any default margins */
+}
+
+.left-aligned-list {
+  text-align: left;
+  margin-left: 20px; /* Adjust the margin as needed for spacing from the left */
+  font-size: 29.65px;
 }

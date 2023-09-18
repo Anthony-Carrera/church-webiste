@@ -1,0 +1,182 @@
+/* Basic styling for the website */
+
+body {
+    font-family: "Sofia", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E6E8E6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+  }
+
+  header, section{
+    background-color: white;
+    padding: 35px;
+  }
+  nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+}
+
+  header {
+    background-color: #090C02;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 30px;
+
+    padding: 15px;
+  }
+ 
+  nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  #left-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  #left-header::after {
+    content: "✞";
+    display: inline-block;
+    margin-left: 5px; /* Add spacing between text and plus symbol */
+    font-size: 30px;
+  }
+  
+  footer {
+    background-color: #090C02; /* Set the background color for content-sectionn */
+    color: white;
+    text-align: center;
+  }
+  /* Add more styles as needed */
+
+/* Add this CSS to your existing styles.css or create a new CSS file */
+
+.image-containerhead {
+  display: flex;
+  justify-content: center;
+}
+.image-containerhead img {
+  width: auto; /* Set the width to 500px */
+  height: 500px;
+  border: 3px solid #333; /* Add a border around the images */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+  border-radius: 15px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.content-section h2 {
+  text-align: center; /* Center the header horizontally */
+  margin-top: 20px; /* Add spacing above the header */
+}
+.image-container img {
+  width: 500px; /* Set the width to 500px */
+  height: 500px; /* Set the height to 500px */
+  height: auto;
+  border: 3px solid #333; /* Add a border around the images */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+  border-radius: 15px;
+}
+
+.image-container img:hover {
+  transform: scale(1.5); /* Enlarge the image slightly on hover */
+}
+
+
+.address-map-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Adjust as needed */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.address-column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.map-column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: right; /* Align content to the right */
+}
+
+/* Style the embedded map iframe */
+.map-column iframe {
+  width: 100%;
+  height: 400px;
+}
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: #333; /* Change this to your preferred color */
+  margin: 20px 0; /* Add spacing around the divider */
+}
+
+.content-sectionn {
+  background-color: #A72608; /* Set the background color for content-sectionn */
+  color: white; /* Set text color to make it readable */
+  /* Add other styling properties if needed */
+}
+
+.content-section2 {
+  background-color: #E6E8E6; /* Set the background color for content-sectionn */
+  color: black; /* Set text color to make it readable */
+  /* Add other styling properties if needed */
+}
+
+footer {
+  background-color: #E6E8E6;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.content {
+  flex-grow: 1;
+}
+.image-float-right {
+  float: right;
+  margin-left: 50px; /* Add some margin to separate it from text */
+  width: 500px;
+  height: 750px;
+  border: 3px solid #333; /* Add a border around the images */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  border-radius: 15px;
+}
+
+.h2-center-bold {
+  text-align: center; /* Center the text horizontally */
+  font-weight: bold; /* Make the text bold */
+}
